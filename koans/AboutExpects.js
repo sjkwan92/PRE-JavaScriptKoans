@@ -20,9 +20,8 @@ describe("Expect에 관해서", function() {
     let expectedValue = FILL_ME_IN;
     let actualValue = 1 + 1;
 
-    // toEqual()는 ==와 비슷하게, 보이는 모습이 같은지를 비교합니다.
+    // toEqual()는 보이는 모습이 같은지를 비교합니다.
     expect(actualValue).toEqual(expectedValue);
-    // 2 == '2' => true
   });
 
   // 하지만 "type"도 같은지 확인해야할 경우도 있겠죠.
